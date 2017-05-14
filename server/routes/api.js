@@ -1,9 +1,14 @@
 const express = require('express');
 const router = express.Router();
 
+
 /* GET api listing. */
 router.get('/', (req, res) => {
-  res.send('api works');
+  // move toward
+  global.mip.driveDistanceByCm(20, 0, function (err) {
+    console.log("moving toward");
+  });
+  res.send('moving toward');
 });
 
 module.exports = router;

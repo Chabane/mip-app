@@ -16,10 +16,7 @@ mipFinder.scan(function(err, robots) {
     }
 
     console.log("connected");
-
-    //move toward
-    selectedMip.driveDistanceByCm(20, 0, function(err) {
-      console.log("moving toward");
-    });
+    global.mip = selectedMip;
   });
+
 });
