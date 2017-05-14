@@ -6,6 +6,19 @@
     "start": "nodemon server/index.js",
     "start:prod": "node server/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirbyApp/mip-app.git"
+  },
+  "author": "Chabane REFES",
+  "bugs": {
+    "url": "https://github.com/NirbyApp/mip-app/issues"
+  },
+  "homepage": "https://github.com/NirbyApp/mip-app#readme",
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
   "private": false,
   "dependencies": {
     "body-parser": "1.16.1",
